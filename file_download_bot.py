@@ -3,8 +3,8 @@ import requests
 from telegram import Update
 from telegram.ext import ApplicationBuilder, CommandHandler, MessageHandler, ContextTypes, filters
 
-# BOT TOKEN (Railway / Render me ENV variable use karo)
-BOT_TOKEN = os.getenv("8577319519:AAHnaebOYVy_TdgJW1bJ73hma-5UG4wfG0E")
+# ⚠️ Direct Bot Token (Not Secure – Only for testing)
+BOT_TOKEN = "8577319519:AAHnaebOYVy_TdgJW1bJ73hma-5UG4wfG0E"
 
 DOWNLOAD_DIR = "downloads"
 os.makedirs(DOWNLOAD_DIR, exist_ok=True)
